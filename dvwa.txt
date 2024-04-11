@@ -1,0 +1,18 @@
+Steps :
+
+
+1) Download xampp and install it from here : https://downloadsapachefriends.global...
+   after install xampp open xampp control panel and start two services : Apache and Mysql
+   (I have already installed it.. )
+   
+2) Download DVWA(DAMN VULNERABLE WEB APP) from its official site.
+3) Extract the folder and rename it to "dvwa"
+4) Copy that folder into C:xampp:htdocs: paste here.
+5) Now open dvwa folder then open config folder under that make a copy of config.inc.php.dist
+6) Then rename it to config.inc.php
+7) Open it with any text editor and remove the password.
+8)Now go to the localhost/dvwa/ Then in the bottom click create database button.
+9) Wait a second you will be redirected to login page.
+10) Now enter the login ID and password as  admin/password.
+11) After successful login click the fourth last option and set the security level to low.
+12) Then click on XSS(stored) and type any name and type the script that you want to inject.
